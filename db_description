@@ -6,7 +6,7 @@ This project deals with a super mart system where customers buy products from th
 marts at different locations, the database stores all the product details, txn date time and the
 revenue etc
 
-We have designed 4 database tables with at least 5 rows of data in each table, with each table
+We have designed 4 database tables(customers,locations,orders and producers) with at least 5 rows of data in each table, with each table
 in 3NF and performed the CRUD operations
 
 TABLES:
