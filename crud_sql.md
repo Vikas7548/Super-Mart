@@ -1,8 +1,9 @@
-#########CRUD OPERATIONS ON SQL#################
+#########CRUD OPERATIONS ON DATABASE#################
 
 1) ORDERS TABLE:
 
 select * from orders;   -- displays all the rows of orders table
+
 select * from orders where cust_id=1001;  --displays all column values where cust_id=1001
 
 ##update operation
@@ -18,5 +19,11 @@ delete from orders where trans_id=22212041;     ---deletes the row where trans_i
 ##truncate operation
 
 truncate table orders; --deletes data from the orders table but not the structure
+
+
+2)
+
+
+
 
 
