@@ -1,3 +1,5 @@
+###Inserting values into orders table
+
 /*
 INSERT INTO super_mart.orders(trans_id, cust_id, purch_date, units_sold) VALUES (22212041, 1001, 22-10-2022, 3);
 INSERT INTO super_mart.orders(trans_id, cust_id, purch_date, units_sold) VALUES (22212042, 1002, 24-10-2022, 6);
@@ -5,6 +7,8 @@ INSERT INTO super_mart.orders(trans_id, cust_id, purch_date, units_sold) VALUES 
 INSERT INTO super_mart.orders(trans_id, cust_id, purch_date, units_sold) VALUES (22212044, 1004, 28-10-2022, 12);
 INSERT INTO super_mart.orders(trans_id, cust_id, purch_date, units_sold) VALUES (22212045, 1005, 30-10-2022, 15);
 */
+
+###Inserting values into customers table
 
 /*
 INSERT INTO super_mart.customers(cust_id, cust_name, contact_no, payment_method) VALUES (1001, "sri", 93949602, "payTM");
@@ -14,6 +18,9 @@ INSERT INTO super_mart.customers(cust_id, cust_name, contact_no, payment_method)
 INSERT INTO super_mart.customers(cust_id, cust_name, contact_no, payment_method) VALUES (1005, "paddu", 85557802, "AmazonPay");
 */
 
+###inserting values into producers table
+
+
 /*
 INSERT INTO super_mart.producers(trans_id, prod_category, prod_type, revenue, purch_date) VALUES (22212041, "ghee", "dairy products", 400000, 22-10-2022);
 INSERT INTO super_mart.producers(trans_id, prod_category, prod_type, revenue, purch_date) VALUES (22212042, "grapes", "fruits", 200000, 24-10-2022);
@@ -21,6 +28,9 @@ INSERT INTO super_mart.producers(trans_id, prod_category, prod_type, revenue, pu
 INSERT INTO super_mart.producers(trans_id, prod_category, prod_type, revenue, purch_date) VALUES (22212044, "chicken", "meat", 900000, 28-10-2022);
 INSERT INTO super_mart.producers(trans_id, prod_category, prod_type, revenue, purch_date) VALUES (22212045, "oats", "cereals", 550000, 30-10-2022);
 */
+
+###inserting values into locations table
+
 
 /*
 INSERT INTO super_mart.locations(trans_id, cust_id, city, states, country, postal_code) VALUES (22212041, 1001, "vijayawada", "Andhra Pradesh", "India", 520001);
